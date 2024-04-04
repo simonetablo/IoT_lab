@@ -1,0 +1,24 @@
+[2.237s] Invoking command in '/home/simone/Documents/IoT/src/py_pubsub': PYTHONPATH=/home/simone/Documents/IoT/build/py_pubsub/prefix_override:/home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/simone/Documents/IoT/build/py_pubsub/build install --record /home/simone/Documents/IoT/build/py_pubsub/install.log --single-version-externally-managed install_data
+[2.830s] running egg_info
+[2.831s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.832s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.833s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.833s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.834s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.837s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.840s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.841s] running build
+[2.841s] running build_py
+[2.842s] copying py_pubsub/turtle_square.py -> /home/simone/Documents/IoT/build/py_pubsub/build/lib/py_pubsub
+[2.842s] running install
+[2.843s] running install_lib
+[2.844s] copying /home/simone/Documents/IoT/build/py_pubsub/build/lib/py_pubsub/turtle_square.py -> /home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.846s] byte-compiling /home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/turtle_square.py to turtle_square.cpython-310.pyc
+[2.847s] running install_data
+[2.848s] running install_egg_info
+[2.851s] removing '/home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[2.852s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[2.855s] running install_scripts
+[2.906s] Installing turtlesquare script to /home/simone/Documents/IoT/install/py_pubsub/lib/py_pubsub
+[2.907s] writing list of installed files to '/home/simone/Documents/IoT/build/py_pubsub/install.log'
+[2.964s] Invoked command in '/home/simone/Documents/IoT/src/py_pubsub' returned '0': PYTHONPATH=/home/simone/Documents/IoT/build/py_pubsub/prefix_override:/home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/simone/Documents/IoT/build/py_pubsub/build install --record /home/simone/Documents/IoT/build/py_pubsub/install.log --single-version-externally-managed install_data

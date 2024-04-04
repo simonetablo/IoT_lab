@@ -1,0 +1,6 @@
+Invoking command in '/home/simone/Documents/IoT/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/simone/Documents/IoT/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/simone/Documents/IoT/install/turtlesim
+Invoked command in '/home/simone/Documents/IoT/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/simone/Documents/IoT/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/simone/Documents/IoT/install/turtlesim
+Invoking command in '/home/simone/Documents/IoT/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/build/turtlesim -- -j16 -l16
+Invoked command in '/home/simone/Documents/IoT/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/build/turtlesim -- -j16 -l16
+Invoking command in '/home/simone/Documents/IoT/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simone/Documents/IoT/build/turtlesim
+Invoked command in '/home/simone/Documents/IoT/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/simone/Documents/IoT/build/turtlesim

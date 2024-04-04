@@ -1,0 +1,40 @@
+[2.190s] Invoking command in '/home/simone/Documents/IoT/src/py_srvcli': PYTHONPATH=/home/simone/Documents/IoT/build/py_srvcli/prefix_override:/home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/simone/Documents/IoT/build/py_srvcli/build install --record /home/simone/Documents/IoT/build/py_srvcli/install.log --single-version-externally-managed install_data
+[2.825s] running egg_info
+[2.827s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[2.827s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.828s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.829s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.829s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.829s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.829s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.833s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.835s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.836s] running build
+[2.836s] running build_py
+[2.836s] creating /home/simone/Documents/IoT/build/py_srvcli/build
+[2.837s] creating /home/simone/Documents/IoT/build/py_srvcli/build/lib
+[2.837s] creating /home/simone/Documents/IoT/build/py_srvcli/build/lib/py_srvcli
+[2.838s] copying py_srvcli/__init__.py -> /home/simone/Documents/IoT/build/py_srvcli/build/lib/py_srvcli
+[2.838s] copying py_srvcli/service_member_function.py -> /home/simone/Documents/IoT/build/py_srvcli/build/lib/py_srvcli
+[2.839s] copying py_srvcli/client_member_function.py -> /home/simone/Documents/IoT/build/py_srvcli/build/lib/py_srvcli
+[2.839s] running install
+[2.839s] running install_lib
+[2.841s] creating /home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.841s] copying /home/simone/Documents/IoT/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.842s] copying /home/simone/Documents/IoT/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.842s] copying /home/simone/Documents/IoT/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.843s] byte-compiling /home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[2.844s] byte-compiling /home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[2.845s] byte-compiling /home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[2.845s] running install_data
+[2.845s] creating /home/simone/Documents/IoT/install/py_srvcli/share/ament_index
+[2.846s] creating /home/simone/Documents/IoT/install/py_srvcli/share/ament_index/resource_index
+[2.846s] creating /home/simone/Documents/IoT/install/py_srvcli/share/ament_index/resource_index/packages
+[2.846s] copying resource/py_srvcli -> /home/simone/Documents/IoT/install/py_srvcli/share/ament_index/resource_index/packages
+[2.846s] copying package.xml -> /home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli
+[2.847s] running install_egg_info
+[2.852s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[2.855s] running install_scripts
+[2.933s] Installing server script to /home/simone/Documents/IoT/install/py_srvcli/lib/py_srvcli
+[2.933s] writing list of installed files to '/home/simone/Documents/IoT/build/py_srvcli/install.log'
+[2.959s] Invoked command in '/home/simone/Documents/IoT/src/py_srvcli' returned '0': PYTHONPATH=/home/simone/Documents/IoT/build/py_srvcli/prefix_override:/home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/simone/Documents/IoT/build/py_srvcli/build install --record /home/simone/Documents/IoT/build/py_srvcli/install.log --single-version-externally-managed install_data

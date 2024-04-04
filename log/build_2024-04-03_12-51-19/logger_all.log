@@ -1,0 +1,281 @@
+[0.285s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.285s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f850f9efe80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f850f9ef880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f850f9ef880>>)
+[0.734s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.735s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.735s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/simone/Documents/IoT'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.775s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[0.778s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.787s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.835s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.835s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.840s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/simone/Documents/IoT/install
+[0.843s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.958s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /home/simone/Documents/IoT/install/turtlesim, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.962s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simone/Documents/IoT/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simone/Documents/IoT/install/py_pubsub', 'merge_install': False, 'path': '/home/simone/Documents/IoT/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.964s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simone/Documents/IoT/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simone/Documents/IoT/install/py_srvcli', 'merge_install': False, 'path': '/home/simone/Documents/IoT/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.966s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simone/Documents/IoT/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simone/Documents/IoT/install/turtlesim', 'merge_install': False, 'path': '/home/simone/Documents/IoT/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.966s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.968s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.969s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simone/Documents/IoT/src/py_pubsub' with build type 'ament_python'
+[0.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[0.975s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[0.981s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.981s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.989s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simone/Documents/IoT/src/py_srvcli' with build type 'ament_python'
+[0.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[0.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.003s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/simone/Documents/IoT/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[1.003s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/simone/Documents/IoT/src/ros_tutorials/turtlesim'
+[1.004s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.004s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.668s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simone/Documents/IoT/src/py_pubsub'
+[1.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.669s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.311s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simone/Documents/IoT/src/py_srvcli'
+[2.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simone/Documents/IoT/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/install/py_srvcli:/home/simone/Documents/IoT/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/build/turtlesim -- -j16 -l16
+[3.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simone/Documents/IoT/src/py_pubsub': PYTHONPATH=/home/simone/Documents/IoT/build/py_pubsub/prefix_override:/home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/simone/Documents/IoT/build/py_pubsub/build install --record /home/simone/Documents/IoT/build/py_pubsub/install.log --single-version-externally-managed install_data
+[3.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simone/Documents/IoT/src/py_srvcli': PYTHONPATH=/home/simone/Documents/IoT/build/py_srvcli/prefix_override:/home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/simone/Documents/IoT/build/py_srvcli/build install --record /home/simone/Documents/IoT/build/py_srvcli/install.log --single-version-externally-managed install_data
+[3.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simone/Documents/IoT/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/install/py_srvcli:/home/simone/Documents/IoT/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/build/turtlesim -- -j16 -l16
+[3.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simone/Documents/IoT/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/install/py_srvcli:/home/simone/Documents/IoT/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/simone/Documents/IoT/build/turtlesim
+[3.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simone/Documents/IoT/src/py_srvcli' returned '0': PYTHONPATH=/home/simone/Documents/IoT/build/py_srvcli/prefix_override:/home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/simone/Documents/IoT/build/py_srvcli/build install --record /home/simone/Documents/IoT/build/py_srvcli/install.log --single-version-externally-managed install_data
+[3.913s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_srvcli' for CMake module files
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_srvcli' for CMake config files
+[3.924s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_srvcli/lib'
+[3.925s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_srvcli/bin'
+[3.925s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[3.926s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_srvcli/lib/python3.10/site-packages'
+[3.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[3.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[3.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[3.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[3.934s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_srvcli/bin'
+[3.934s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[3.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/package.ps1'
+[3.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/package.dsv'
+[3.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/package.sh'
+[3.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/package.bash'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/py_srvcli/share/py_srvcli/package.zsh'
+[3.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simone/Documents/IoT/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[3.955s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_pubsub' for CMake module files
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_pubsub' for CMake config files
+[3.966s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_pubsub/lib'
+[3.967s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_pubsub/bin'
+[3.967s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages'
+[3.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[3.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[3.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[3.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/py_pubsub/bin'
+[3.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[3.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/package.ps1'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/package.dsv'
+[3.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/package.sh'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/package.bash'
+[3.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub/package.zsh'
+[3.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simone/Documents/IoT/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[4.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simone/Documents/IoT/src/py_pubsub' returned '0': PYTHONPATH=/home/simone/Documents/IoT/build/py_pubsub/prefix_override:/home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/simone/Documents/IoT/build/py_pubsub/build install --record /home/simone/Documents/IoT/build/py_pubsub/install.log --single-version-externally-managed install_data
+[4.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[4.055s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim' for CMake module files
+[4.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simone/Documents/IoT/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/install/py_srvcli:/home/simone/Documents/IoT/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/simone/Documents/IoT/build/turtlesim
+[4.058s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim' for CMake config files
+[4.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[4.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[4.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[4.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[4.064s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim/lib'
+[4.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[4.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[4.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[4.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[4.068s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim/bin'
+[4.068s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[4.069s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim/lib/python3.10/site-packages'
+[4.069s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim/bin'
+[4.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.ps1'
+[4.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.dsv'
+[4.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.sh'
+[4.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.bash'
+[4.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.zsh'
+[4.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simone/Documents/IoT/install/turtlesim/share/colcon-core/packages/turtlesim)
+[4.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[4.693s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim' for CMake module files
+[4.695s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim' for CMake config files
+[4.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[4.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[4.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[4.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[4.701s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim/lib'
+[4.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[4.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[4.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[4.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[4.705s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim/bin'
+[4.705s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[4.706s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim/lib/python3.10/site-packages'
+[4.706s] Level 1:colcon.colcon_core.environment:checking '/home/simone/Documents/IoT/install/turtlesim/bin'
+[4.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.ps1'
+[4.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.dsv'
+[4.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.sh'
+[4.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.bash'
+[4.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.zsh'
+[4.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simone/Documents/IoT/install/turtlesim/share/colcon-core/packages/turtlesim)
+[4.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.716s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.730s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.761s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.762s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simone/Documents/IoT/install/local_setup.ps1'
+[4.764s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simone/Documents/IoT/install/_local_setup_util_ps1.py'
+[4.768s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simone/Documents/IoT/install/setup.ps1'
+[4.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simone/Documents/IoT/install/local_setup.sh'
+[4.772s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simone/Documents/IoT/install/_local_setup_util_sh.py'
+[4.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simone/Documents/IoT/install/setup.sh'
+[4.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simone/Documents/IoT/install/local_setup.bash'
+[4.778s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simone/Documents/IoT/install/setup.bash'
+[4.781s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simone/Documents/IoT/install/local_setup.zsh'
+[4.782s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simone/Documents/IoT/install/setup.zsh'

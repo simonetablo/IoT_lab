@@ -1,0 +1,413 @@
+[0.000000] (-) TimerEvent: {}
+[0.000415] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000504] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001162] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.017820] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.097632] (-) TimerEvent: {}
+[0.198230] (-) TimerEvent: {}
+[0.298763] (-) TimerEvent: {}
+[0.399269] (-) TimerEvent: {}
+[0.499781] (-) TimerEvent: {}
+[0.600323] (-) TimerEvent: {}
+[0.625658] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.628109] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.630061] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/simone/Documents/IoT/build/turtlesim', '--', '-j16', '-l16'], 'cwd': '/home/simone/Documents/IoT/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simone'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simone'), ('OLDPWD', '/home/simone/Documents/IoT/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1982'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c8a8cff6cc1da6a38fdadb02660d0309'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'simone'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'simone'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/simone-Legion-5-15ACH6H:@/tmp/.ICE-unix/1982,unix/simone-Legion-5-15ACH6H:/tmp/.ICE-unix/1982'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cbd0944d_e373_425f_9ab4_e1314393a5c5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simone/Documents/IoT/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c8a8cff6cc1da6a38fdadb02660d0309'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.700518] (-) TimerEvent: {}
+[0.801055] (-) TimerEvent: {}
+[0.817581] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.830016] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.853146] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.888434] (turtlesim) StdoutLine: {'line': b'[ 59%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.889014] (turtlesim) StdoutLine: {'line': b'[ 59%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.889286] (turtlesim) StdoutLine: {'line': b'[ 59%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.889524] (turtlesim) StdoutLine: {'line': b'[ 59%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.889749] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.892750] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.901192] (-) TimerEvent: {}
+[0.948548] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.965994] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtle_teleop_key\n'}
+[0.966510] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target draw_square\n'}
+[0.969522] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target mimic\n'}
+[0.981440] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtlesim_node\n'}
+[0.999484] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim__py\n'}
+[1.001340] (-) TimerEvent: {}
+[1.065681] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_generator_py\n'}
+[1.101563] (-) TimerEvent: {}
+[1.121539] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.122178] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[1.122473] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[1.201725] (-) TimerEvent: {}
+[1.302531] (-) TimerEvent: {}
+[1.387824] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/simone/Documents/IoT/build/py_pubsub/build', 'install', '--record', '/home/simone/Documents/IoT/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/simone/Documents/IoT/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'simone', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/simone', 'OLDPWD': '/home/simone/Documents/IoT/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1982', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c8a8cff6cc1da6a38fdadb02660d0309', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'simone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'simone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/simone-Legion-5-15ACH6H:@/tmp/.ICE-unix/1982,unix/simone-Legion-5-15ACH6H:/tmp/.ICE-unix/1982', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cbd0944d_e373_425f_9ab4_e1314393a5c5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.134', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/simone/Documents/IoT/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c8a8cff6cc1da6a38fdadb02660d0309', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/simone/Documents/IoT/build/py_pubsub/prefix_override:/home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.402665] (-) TimerEvent: {}
+[1.406296] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[1.408055] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[1.408720] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[1.409301] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[1.414321] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.416035] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.474359] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[1.502841] (-) TimerEvent: {}
+[1.507107] (turtlesim) CommandEnded: {'returncode': 0}
+[1.603017] (-) TimerEvent: {}
+[1.703560] (-) TimerEvent: {}
+[1.804103] (-) TimerEvent: {}
+[1.904731] (-) TimerEvent: {}
+[1.949998] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.951950] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[1.952552] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[1.953243] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[1.954119] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[1.954668] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[1.955029] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[1.955551] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.959154] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.960990] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[1.961545] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[1.962384] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.962944] (py_pubsub) StdoutLine: {'line': b'creating /home/simone/Documents/IoT/build/py_pubsub/build\n'}
+[1.963483] (py_pubsub) StdoutLine: {'line': b'creating /home/simone/Documents/IoT/build/py_pubsub/build/lib\n'}
+[1.964087] (py_pubsub) StdoutLine: {'line': b'creating /home/simone/Documents/IoT/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.964722] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/simone/Documents/IoT/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.965199] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/turtle_square.py -> /home/simone/Documents/IoT/build/py_pubsub/build/lib/py_pubsub\n'}
+[1.965573] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[1.966129] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.967157] (py_pubsub) StdoutLine: {'line': b'creating /home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[1.967679] (py_pubsub) StdoutLine: {'line': b'copying /home/simone/Documents/IoT/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[1.968501] (py_pubsub) StdoutLine: {'line': b'copying /home/simone/Documents/IoT/build/py_pubsub/build/lib/py_pubsub/turtle_square.py -> /home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[1.969500] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[1.970306] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/turtle_square.py to turtle_square.cpython-310.pyc\n'}
+[1.971565] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.972416] (py_pubsub) StdoutLine: {'line': b'creating /home/simone/Documents/IoT/install/py_pubsub/share/ament_index\n'}
+[1.973068] (py_pubsub) StdoutLine: {'line': b'creating /home/simone/Documents/IoT/install/py_pubsub/share/ament_index/resource_index\n'}
+[1.973610] (py_pubsub) StdoutLine: {'line': b'creating /home/simone/Documents/IoT/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[1.974090] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/simone/Documents/IoT/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[1.974726] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/simone/Documents/IoT/install/py_pubsub/share/py_pubsub\n'}
+[1.975101] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.978097] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/simone/Documents/IoT/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[1.980886] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[2.004872] (-) TimerEvent: {}
+[2.032163] (py_pubsub) StdoutLine: {'line': b'Installing turtlesquare script to /home/simone/Documents/IoT/install/py_pubsub/lib/py_pubsub\n'}
+[2.033507] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/simone/Documents/IoT/build/py_pubsub/install.log'\n"}
+[2.045825] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[2.067499] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/simone/Documents/IoT/build/turtlesim'], 'cwd': '/home/simone/Documents/IoT/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simone'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simone'), ('OLDPWD', '/home/simone/Documents/IoT/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1982'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c8a8cff6cc1da6a38fdadb02660d0309'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'simone'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'simone'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/simone-Legion-5-15ACH6H:@/tmp/.ICE-unix/1982,unix/simone-Legion-5-15ACH6H:/tmp/.ICE-unix/1982'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cbd0944d_e373_425f_9ab4_e1314393a5c5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simone/Documents/IoT/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c8a8cff6cc1da6a38fdadb02660d0309'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.080673] (py_pubsub) CommandEnded: {'returncode': 0}
+[2.089862] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.091238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[2.091708] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim\n'}
+[2.091975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[2.092207] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[2.092755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[2.093438] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[2.093754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[2.094088] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[2.094441] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[2.095319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[2.095598] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[2.095837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[2.096496] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[2.096783] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[2.097097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[2.097369] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[2.097753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[2.098181] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[2.098569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[2.098996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[2.099285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[2.100213] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[2.101525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[2.102249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[2.103149] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[2.103712] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[2.104191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[2.105251] (-) TimerEvent: {}
+[2.105546] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[2.106838] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[2.107955] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[2.108896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.109533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[2.109769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[2.110296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[2.110591] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[2.111327] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[2.111585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[2.112309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[2.113012] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[2.113405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[2.113894] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[2.114114] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[2.114531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[2.114766] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[2.115131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[2.115513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[2.115785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[2.116171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[2.116702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[2.117203] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[2.117610] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[2.118027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[2.118460] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim\n'}
+[2.118646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[2.119898] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[2.121234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[2.122287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[2.124689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[2.125625] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[2.126231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[2.126987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[2.127621] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[2.128152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[2.128805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[2.129261] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.129989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[2.130526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[2.132700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[2.133215] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[2.135044] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim\n'}
+[2.135586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[2.136213] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[2.137946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[2.138779] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[2.139106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[2.140697] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[2.141066] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[2.141604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[2.142055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[2.143530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[2.144070] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[2.144907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[2.145328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[2.146714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[2.147111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[2.147932] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[2.148450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[2.148877] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[2.149612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[2.149854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[2.150076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[2.150266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[2.150437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[2.150643] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[2.150880] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[2.151204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[2.151390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[2.151628] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[2.151816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[2.151984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[2.152182] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[2.152439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[2.152673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[2.152885] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[2.153080] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[2.153283] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[2.153553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[2.153744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[2.153955] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim\n'}
+[2.154152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[2.154343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[2.154513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.154674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.154867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[2.155058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.155309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.155519] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.155689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[2.155916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.156141] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[2.156436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.156638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[2.156875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.157037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[2.157227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[2.157390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.157584] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[2.157775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.157988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim\n'}
+[2.158179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[2.158511] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[2.158772] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[2.158987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[2.159149] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[2.159338] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[2.159503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[2.159666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[2.159897] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[2.160121] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[2.160375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[2.160583] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[2.160776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[2.161034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.161280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[2.161545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[2.161794] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[2.162008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[2.162198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[2.162369] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[2.162577] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[2.162780] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[2.162981] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[2.163143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[2.163303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[2.163514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim\n'}
+[2.163748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[2.163914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[2.164111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[2.164428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.164633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.164797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[2.165007] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.165199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.165438] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[2.165613] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[2.165874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[2.166113] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.166288] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[2.166488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[2.166648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.166810] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[2.167010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[2.167246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.167452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[2.167610] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[2.167775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[2.168000] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.168211] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[2.168551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[2.168789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[2.169022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[2.169190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[2.169387] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[2.169552] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[2.169799] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[2.170000] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[2.170164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[2.170354] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[2.170539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[2.170839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.171056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.171220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.171467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[2.171668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[2.171874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[2.172072] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[2.172240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[2.172530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[2.172731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[2.172889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[2.173113] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[2.173304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[2.173498] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[2.173660] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[2.173855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.174042] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[2.174212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[2.174404] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[2.174630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[2.174837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[2.175005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[2.175227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[2.175458] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[2.175649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[2.175837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[2.176054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.176222] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[2.176470] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[2.201137] (turtlesim) StdoutLine: {'line': b"Listing '/home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[2.201604] (turtlesim) StdoutLine: {'line': b"Listing '/home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[2.201874] (turtlesim) StdoutLine: {'line': b"Listing '/home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[2.202095] (turtlesim) StdoutLine: {'line': b"Listing '/home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[2.205395] (-) TimerEvent: {}
+[2.212264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.213754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.215105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.216473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[2.217064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[2.217500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[2.217920] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[2.218295] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[2.218618] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[2.218883] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[2.219103] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[2.219306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[2.219718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[2.220055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[2.220290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[2.220548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[2.220720] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[2.220912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[2.221205] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[2.221368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[2.221526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[2.221689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[2.221845] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[2.222000] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[2.222157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[2.222422] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[2.222587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[2.222744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[2.222899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[2.223053] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[2.223207] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[2.223360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[2.223610] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/turtlesim/draw_square\n'}
+[2.224776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/lib/turtlesim/mimic\n'}
+[2.225328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/images\n'}
+[2.225634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[2.225951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[2.226227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[2.226546] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[2.226833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[2.227186] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[2.227375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[2.227707] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[2.227877] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[2.228037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/launch\n'}
+[2.228245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[2.228467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[2.228634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[2.229036] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[2.229227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[2.229406] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[2.229704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[2.229868] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[2.230115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[2.230304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[2.230476] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[2.230795] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.dsv\n'}
+[2.230964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[2.231295] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[2.231472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.231626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.231925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.232086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[2.232238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.232605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.232778] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.232936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.233272] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[2.233449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.233626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.233799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.233973] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[2.234147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.234479] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[2.234792] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.235089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[2.235256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.235417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.235566] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.235716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.235922] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.236157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.236461] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[2.236666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[2.236849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/install/turtlesim/share/turtlesim/package.xml\n'}
+[2.241032] (turtlesim) CommandEnded: {'returncode': 0}
+[2.305558] (-) TimerEvent: {}
+[2.405979] (-) TimerEvent: {}
+[2.506379] (-) TimerEvent: {}
+[2.607039] (-) TimerEvent: {}
+[2.707462] (-) TimerEvent: {}
+[2.808133] (-) TimerEvent: {}
+[2.821560] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[2.823555] (-) EventReactorShutdown: {}
