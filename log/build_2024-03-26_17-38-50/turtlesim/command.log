@@ -1,2 +1,0 @@
-Invoking command in '/home/simone/Documents/IoT/build/turtlesim': /usr/bin/cmake /home/simone/Documents/IoT/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/simone/Documents/IoT/install/turtlesim
-Invoked command in '/home/simone/Documents/IoT/build/turtlesim' returned '1': /usr/bin/cmake /home/simone/Documents/IoT/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/simone/Documents/IoT/install/turtlesim
