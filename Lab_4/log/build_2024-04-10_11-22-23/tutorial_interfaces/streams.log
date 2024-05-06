@@ -1,0 +1,62 @@
+[0.027s] Invoking command in '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces -- -j16 -l16
+[0.074s] [33mCMake Warning (dev) at CMakeLists.txt:10:
+[0.074s]   Syntax Warning in cmake code at column 23
+[0.074s] 
+[0.075s]   Argument not separated from preceding token by whitespace.
+[0.075s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.075s] [0m
+[0.075s] [33mCMake Warning (dev) at CMakeLists.txt:14:
+[0.075s]   Syntax Warning in cmake code at column 63
+[0.075s] 
+[0.076s]   Argument not separated from preceding token by whitespace.
+[0.076s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.076s] [0m
+[0.076s] [31mCMake Error at CMakeLists.txt:38:
+[0.076s]   Parse error.  Function missing ending ")".  Instead found unterminated
+[0.076s]   string with text ")
+[0.077s] 
+[0.077s]     add_compile_options(-Wall -Wextra -Wpedantic)
+[0.077s] 
+[0.078s]   endif()
+[0.078s] 
+[0.078s]   
+[0.078s] 
+[0.078s]   # find dependencies
+[0.078s] 
+[0.079s]   find_package(ament_cmake REQUIRED)
+[0.079s] 
+[0.079s]   # uncomment the following section in order to fill in
+[0.079s] 
+[0.080s]   # further dependencies manually.
+[0.080s] 
+[0.080s]   # find_package(<dependency> REQUIRED)
+[0.080s] 
+[0.081s]   
+[0.081s] 
+[0.081s]   if(BUILD_TESTING)
+[0.081s] 
+[0.081s]     find_package(ament_lint_auto REQUIRED)
+[0.081s]     # the following line skips the linter which checks for copyrights
+[0.082s]     # comment the line when a copyright and license is added to all source files
+[0.083s]     set(ament_cmake_copyright_FOUND TRUE)
+[0.083s]     # the following line skips cpplint (only works in a git repo)
+[0.084s]     # comment the line when this package is in a git repo and when
+[0.085s]     # a copyright and license is added to all source files
+[0.085s]     set(ament_cmake_cpplint_FOUND TRUE)
+[0.087s]     ament_lint_auto_find_test_dependencies()
+[0.087s] 
+[0.087s]   endif()
+[0.087s] 
+[0.088s]   
+[0.088s] 
+[0.088s]   ament_package()
+[0.088s] 
+[0.088s]   
+[0.088s] 
+[0.088s]   ".
+[0.089s] 
+[0.089s] [0m
+[0.089s] -- Configuring incomplete, errors occurred!
+[0.089s] See also "/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.089s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.090s] Invoked command in '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces -- -j16 -l16

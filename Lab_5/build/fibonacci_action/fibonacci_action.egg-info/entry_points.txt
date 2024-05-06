@@ -1,0 +1,4 @@
+[console_scripts]
+fibonacci_client = fibonacci_action.fibonacci_action_client:main
+fibonacci_server = fibonacci_action.fibonacci_action_server:main
+

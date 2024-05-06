@@ -1,0 +1,323 @@
+[0.658s] Invoking command in '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces -- -j16 -l16
+[0.725s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.120s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.127s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.165s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.518s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.276s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.311s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.762s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.820s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.820s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.820s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.907s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.943s] -- Added test 'lint_cmake' to check CMake code style
+[3.967s] -- Added test 'xmllint' to check XML markup files
+[3.974s] -- Configuring done
+[4.091s] -- Generating done
+[4.102s] -- Build files have been written to: /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces
+[4.166s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.192s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.222s] [  3%] Built target ament_cmake_python_copy_tutorial_interfaces
+[4.849s] running egg_info
+[4.851s] writing tutorial_interfaces.egg-info/PKG-INFO
+[4.851s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[4.852s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[4.857s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[4.859s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[4.921s] [  3%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[5.156s] [  3%] Built target tutorial_interfaces__cpp
+[5.176s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[5.183s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.184s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.184s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.211s] [ 10%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[5.212s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[5.212s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[5.212s] [ 16%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/spin_turtle__functions.c.o[0m
+[5.400s] [ 18%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[5.507s] [ 18%] Built target tutorial_interfaces__rosidl_generator_c
+[5.534s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.534s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.534s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.913s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp[0m
+[5.953s] [ 25%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[5.953s] [ 27%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[5.954s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/spin_turtle__type_support.cpp.o[0m
+[5.962s] [ 30%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[6.010s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp[0m
+[6.057s] [ 32%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[6.064s] [ 34%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/spin_turtle__type_support.cpp.o[0m
+[6.064s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[6.065s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[6.188s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[6.239s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[6.242s] [ 41%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[6.243s] [ 43%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[6.275s] [ 45%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/spin_turtle__type_support.cpp.o[0m
+[6.277s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c[0m
+[6.324s] [ 47%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[6.329s] [ 49%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[6.484s] [ 50%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[6.512s] [ 52%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/spin_turtle__type_support.cpp.o[0m
+[6.612s] [ 54%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[6.632s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[6.666s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[6.677s] [ 58%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[6.692s] [ 58%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[6.733s] [ 60%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[6.814s] [ 60%] Built target tutorial_interfaces__rosidl_typesupport_c
+[6.834s] [ 61%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[6.840s] [ 63%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/spin_turtle__type_support.c.o[0m
+[6.852s] [ 65%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[6.860s] [ 67%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[6.873s] [ 69%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/spin_turtle__type_support_c.cpp.o[0m
+[6.876s] [ 70%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[6.977s] [ 72%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.041s] [ 72%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[7.086s] [ 72%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[7.217s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.337s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[7.406s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.534s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.583s] [ 78%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.697s] [ 78%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[7.730s] [ 78%] Built target tutorial_interfaces
+[7.764s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.440s] [ 80%] Built target tutorial_interfaces__py
+[8.452s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py[0m
+[8.471s] [ 81%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[8.471s] [ 83%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_spin_turtle_s.c.o[0m
+[8.471s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[8.472s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[8.588s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[8.636s] [ 89%] Built target tutorial_interfaces__rosidl_generator_py
+[8.648s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext[0m
+[8.648s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[8.648s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.663s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.663s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.663s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.767s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.767s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.767s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.807s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.807s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[8.807s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.820s] Invoked command in '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces -- -j16 -l16
+[8.958s] Invoking command in '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble /usr/bin/cmake --install /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces
+[8.966s] -- Install configuration: ""
+[8.966s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[8.966s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[8.966s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[8.966s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[8.966s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/spin_turtle.h
+[8.967s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[8.967s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__functions.h
+[8.967s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__struct.h
+[8.967s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__type_support.h
+[8.967s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[8.967s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[8.967s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[8.967s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__functions.c
+[8.968s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[8.968s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[8.968s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.968s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[8.968s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[8.968s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[8.968s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[8.968s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[8.968s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[8.969s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[8.969s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[8.969s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[8.969s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[8.970s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[8.970s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[8.970s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[8.970s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[8.971s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[8.971s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[8.971s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[8.971s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[8.971s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[8.971s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__rosidl_typesupport_fastrtps_c.h
+[8.971s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[8.971s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[8.971s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[8.971s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[8.971s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.972s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.972s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.972s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[8.972s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[8.972s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/spin_turtle.hpp
+[8.972s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[8.973s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[8.973s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[8.973s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__struct.hpp
+[8.973s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[8.973s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__traits.hpp
+[8.973s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__builder.hpp
+[8.973s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[8.973s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[8.974s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[8.974s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[8.974s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[8.974s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[8.974s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[8.974s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[8.974s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[8.975s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[8.975s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[8.975s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[8.975s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[8.975s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[8.975s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[8.975s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[8.976s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[8.976s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[8.976s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.976s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[8.976s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[8.976s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[8.976s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[8.976s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.977s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.977s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[8.977s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[8.977s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[8.977s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[8.977s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__type_support.c
+[8.977s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[8.977s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__rosidl_typesupport_introspection_c.h
+[8.977s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[8.977s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.978s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[8.978s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[8.978s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[8.978s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[8.978s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[8.978s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[8.979s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.979s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[8.979s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[8.979s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[8.979s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[8.979s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[8.980s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__rosidl_typesupport_introspection_cpp.hpp
+[8.980s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[8.980s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__type_support.cpp
+[8.980s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[8.980s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[8.980s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[8.980s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[8.980s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[8.981s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[8.981s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[8.981s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.982s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.982s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[8.982s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.982s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[8.982s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[8.982s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[8.982s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.983s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.983s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[8.983s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[8.983s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[8.983s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.983s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[8.984s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.984s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.984s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.984s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.984s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[8.985s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[8.985s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[8.985s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py
+[8.985s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_spin_turtle_s.c
+[8.985s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_spin_turtle.py
+[8.985s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[8.986s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[8.986s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg
+[8.986s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[8.986s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[8.986s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[8.986s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c
+[8.987s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py
+[9.017s] Listing '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[9.018s] Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[9.018s] Listing '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[9.018s] Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...
+[9.018s] Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...
+[9.018s] Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py'...
+[9.018s] Listing '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[9.018s] Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...
+[9.018s] Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[9.018s] Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_spin_turtle.py'...
+[9.022s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.022s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.022s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.023s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.023s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.023s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.024s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[9.024s] -- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[9.024s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[9.024s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[9.024s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[9.024s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/SpinTurtle.idl
+[9.024s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[9.024s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[9.025s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[9.025s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[9.025s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[9.025s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/SpinTurtle.srv
+[9.025s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/SpinTurtle_Request.msg
+[9.025s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/SpinTurtle_Response.msg
+[9.025s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[9.025s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[9.025s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[9.025s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[9.025s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[9.025s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[9.026s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[9.026s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[9.026s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[9.026s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[9.026s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[9.026s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[9.026s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[9.026s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.026s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.026s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.026s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[9.026s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[9.027s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.027s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.028s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.028s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.028s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.028s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.028s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.028s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.028s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[9.028s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[9.028s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[9.030s] Invoked command in '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble /usr/bin/cmake --install /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces

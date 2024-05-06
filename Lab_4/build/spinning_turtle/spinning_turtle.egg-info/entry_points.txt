@@ -1,0 +1,3 @@
+[console_scripts]
+Spin = spinning_turtle.turtle_spin_service:main
+

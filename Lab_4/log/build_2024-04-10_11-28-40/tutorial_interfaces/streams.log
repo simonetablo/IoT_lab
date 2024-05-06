@@ -1,0 +1,230 @@
+[0.031s] Invoking command in '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces -- -j16 -l16
+[0.094s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.469s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.475s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.491s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.831s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.528s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.912s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.970s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.025s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.025s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.026s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.111s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.136s] -- Added test 'lint_cmake' to check CMake code style
+[3.140s] -- Added test 'xmllint' to check XML markup files
+[3.145s] -- Configuring done
+[3.253s] -- Generating done
+[3.264s] -- Build files have been written to: /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces
+[3.334s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[3.358s] [  2%] Built target tutorial_interfaces__cpp
+[3.368s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[3.385s] [ 12%] Built target ament_cmake_python_copy_tutorial_interfaces
+[3.387s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp[0m
+[3.388s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.388s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.396s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[3.396s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c[0m
+[3.397s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.428s] [ 34%] Built target tutorial_interfaces__rosidl_typesupport_c
+[3.428s] [ 34%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[3.429s] [ 44%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[3.431s] [ 55%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[3.434s] [ 65%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.443s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[3.497s] [ 76%] Built target tutorial_interfaces
+[3.552s] [ 78%] Built target tutorial_interfaces__py
+[3.581s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py[0m
+[3.627s] [ 87%] Built target tutorial_interfaces__rosidl_generator_py
+[3.655s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.655s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext[0m
+[3.656s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.694s] [ 95%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[3.694s] [ 95%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.694s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.977s] running egg_info
+[3.978s] writing tutorial_interfaces.egg-info/PKG-INFO
+[3.979s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[3.979s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[3.984s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.986s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[4.046s] [100%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[4.078s] Invoked command in '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces -- -j16 -l16
+[4.376s] Invoking command in '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces
+[4.396s] -- Install configuration: ""
+[4.397s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[4.397s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.397s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.398s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[4.398s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.398s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[4.399s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[4.399s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[4.399s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[4.399s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.399s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.400s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.400s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[4.400s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[4.400s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[4.401s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[4.401s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[4.401s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[4.401s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[4.401s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[4.402s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[4.402s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[4.402s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[4.402s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[4.402s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[4.403s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.403s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.404s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.404s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[4.404s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.405s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.405s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[4.405s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[4.406s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.406s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.406s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.406s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.406s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.406s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[4.407s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[4.407s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[4.407s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[4.407s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.407s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[4.408s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.408s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[4.408s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[4.408s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[4.409s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[4.409s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[4.409s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[4.409s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[4.409s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.410s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.410s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.410s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[4.411s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[4.411s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.411s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.411s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.411s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[4.412s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[4.412s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[4.412s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.412s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.412s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.412s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.413s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[4.413s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[4.413s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.414s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.414s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.414s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[4.414s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[4.415s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[4.415s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[4.415s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[4.415s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[4.416s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.416s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.416s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.416s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[4.417s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[4.417s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.417s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.417s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[4.417s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[4.417s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[4.418s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[4.418s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.418s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[4.418s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[4.418s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[4.418s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[4.419s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.419s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.419s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.419s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.419s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[4.419s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.420s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[4.420s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.420s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.420s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.420s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.420s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[4.420s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[4.421s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[4.421s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py
+[4.421s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[4.421s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[4.421s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg
+[4.422s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[4.422s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[4.422s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[4.422s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c
+[4.422s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py
+[4.494s] Listing '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[4.494s] Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[4.494s] Listing '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[4.494s] Listing '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[4.505s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.505s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.506s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.507s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[4.508s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[4.508s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[4.508s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[4.509s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[4.509s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[4.509s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[4.509s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[4.509s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[4.510s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[4.510s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[4.510s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[4.510s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[4.511s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[4.511s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[4.511s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[4.511s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[4.511s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[4.512s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[4.512s] -- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[4.512s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[4.513s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[4.513s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.514s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.514s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.514s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[4.515s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.515s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.515s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.515s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.516s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[4.516s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.516s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.517s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.517s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[4.517s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.517s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[4.518s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.518s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.518s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.518s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.518s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.519s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.519s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.519s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.519s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[4.519s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[4.520s] -- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[4.524s] Invoked command in '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces

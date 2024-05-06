@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/spinning_turtle/spinning_turtle.egg-info/PKG-INFO
+writing dependency_links to ../../build/spinning_turtle/spinning_turtle.egg-info/dependency_links.txt
+writing entry points to ../../build/spinning_turtle/spinning_turtle.egg-info/entry_points.txt
+writing requirements to ../../build/spinning_turtle/spinning_turtle.egg-info/requires.txt
+writing top-level names to ../../build/spinning_turtle/spinning_turtle.egg-info/top_level.txt
+reading manifest file '../../build/spinning_turtle/spinning_turtle.egg-info/SOURCES.txt'
+writing manifest file '../../build/spinning_turtle/spinning_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+copying spinning_turtle/turtle_spin.py -> /home/simone/Documents/IoT/Lab_4/build/spinning_turtle/build/lib/spinning_turtle
+running install
+running install_lib
+copying /home/simone/Documents/IoT/Lab_4/build/spinning_turtle/build/lib/spinning_turtle/turtle_spin.py -> /home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages/spinning_turtle
+byte-compiling /home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages/spinning_turtle/turtle_spin.py to turtle_spin.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages/spinning_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/spinning_turtle/spinning_turtle.egg-info to /home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages/spinning_turtle-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spinning_turtle script to /home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/spinning_turtle
+writing list of installed files to '/home/simone/Documents/IoT/Lab_4/build/spinning_turtle/install.log'

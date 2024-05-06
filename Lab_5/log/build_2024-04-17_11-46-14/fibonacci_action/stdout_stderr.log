@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/fibonacci_action/fibonacci_action.egg-info
+writing ../../build/fibonacci_action/fibonacci_action.egg-info/PKG-INFO
+writing dependency_links to ../../build/fibonacci_action/fibonacci_action.egg-info/dependency_links.txt
+writing entry points to ../../build/fibonacci_action/fibonacci_action.egg-info/entry_points.txt
+writing requirements to ../../build/fibonacci_action/fibonacci_action.egg-info/requires.txt
+writing top-level names to ../../build/fibonacci_action/fibonacci_action.egg-info/top_level.txt
+writing manifest file '../../build/fibonacci_action/fibonacci_action.egg-info/SOURCES.txt'
+reading manifest file '../../build/fibonacci_action/fibonacci_action.egg-info/SOURCES.txt'
+writing manifest file '../../build/fibonacci_action/fibonacci_action.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build
+creating /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib
+creating /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action
+copying fibonacci_action/__init__.py -> /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action
+copying fibonacci_action/fibonacci_action_server.py -> /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action
+copying fibonacci_action/fibonacci_action_client.py -> /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action
+running install
+running install_lib
+creating /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action
+copying /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action/__init__.py -> /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action
+copying /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action/fibonacci_action_server.py -> /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action
+copying /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action/fibonacci_action_client.py -> /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action
+byte-compiling /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action/fibonacci_action_server.py to fibonacci_action_server.cpython-310.pyc
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (fibonacci_action_server.py, line 22)
+byte-compiling /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action/fibonacci_action_client.py to fibonacci_action_client.cpython-310.pyc
+running install_data
+creating /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/share/ament_index
+creating /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/share/ament_index/resource_index
+creating /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/share/ament_index/resource_index/packages
+copying resource/fibonacci_action -> /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/share/ament_index/resource_index/packages
+copying package.xml -> /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/share/fibonacci_action
+running install_egg_info
+Copying ../../build/fibonacci_action/fibonacci_action.egg-info to /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/simone/Documents/IoT/Lab_5/build/fibonacci_action/install.log'

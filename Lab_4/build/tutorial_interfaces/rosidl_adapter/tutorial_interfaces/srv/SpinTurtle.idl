@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/SpinTurtle.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct SpinTurtle_Request {
+      int8 dir;
+    };
+    struct SpinTurtle_Response {
+      string res;
+    };
+  };
+};

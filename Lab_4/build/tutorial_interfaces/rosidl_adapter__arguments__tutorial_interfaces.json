@@ -1,0 +1,9 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/simone/Documents/IoT/Lab_4/src/tutorial_interfaces:msg/Num.msg",
+    "/home/simone/Documents/IoT/Lab_4/src/tutorial_interfaces:msg/Sphere.msg",
+    "/home/simone/Documents/IoT/Lab_4/src/tutorial_interfaces:srv/AddThreeInts.srv",
+    "/home/simone/Documents/IoT/Lab_4/src/tutorial_interfaces:srv/SpinTurtle.srv"
+  ]
+}

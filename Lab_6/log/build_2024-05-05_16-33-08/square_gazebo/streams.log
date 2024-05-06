@@ -1,0 +1,36 @@
+[0.408s] Invoking command in '/home/simone/Documents/IoT/Lab_6/src/square_gazebo': PYTHONPATH=/home/simone/Documents/IoT/Lab_6/build/square_gazebo/prefix_override:/home/simone/Documents/IoT/Lab_6/install/square_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/square_gazebo build --build-base /home/simone/Documents/IoT/Lab_6/build/square_gazebo/build install --record /home/simone/Documents/IoT/Lab_6/build/square_gazebo/install.log --single-version-externally-managed install_data
+[0.571s] running egg_info
+[0.571s] creating ../../build/square_gazebo/square_gazebo.egg-info
+[0.571s] writing ../../build/square_gazebo/square_gazebo.egg-info/PKG-INFO
+[0.571s] writing dependency_links to ../../build/square_gazebo/square_gazebo.egg-info/dependency_links.txt
+[0.571s] writing entry points to ../../build/square_gazebo/square_gazebo.egg-info/entry_points.txt
+[0.571s] writing requirements to ../../build/square_gazebo/square_gazebo.egg-info/requires.txt
+[0.572s] writing top-level names to ../../build/square_gazebo/square_gazebo.egg-info/top_level.txt
+[0.572s] writing manifest file '../../build/square_gazebo/square_gazebo.egg-info/SOURCES.txt'
+[0.572s] reading manifest file '../../build/square_gazebo/square_gazebo.egg-info/SOURCES.txt'
+[0.573s] writing manifest file '../../build/square_gazebo/square_gazebo.egg-info/SOURCES.txt'
+[0.573s] running build
+[0.573s] running build_py
+[0.573s] creating /home/simone/Documents/IoT/Lab_6/build/square_gazebo/build
+[0.573s] creating /home/simone/Documents/IoT/Lab_6/build/square_gazebo/build/lib
+[0.573s] creating /home/simone/Documents/IoT/Lab_6/build/square_gazebo/build/lib/square_gazebo
+[0.574s] copying square_gazebo/__init__.py -> /home/simone/Documents/IoT/Lab_6/build/square_gazebo/build/lib/square_gazebo
+[0.574s] copying square_gazebo/vehicle_controller.py -> /home/simone/Documents/IoT/Lab_6/build/square_gazebo/build/lib/square_gazebo
+[0.574s] running install
+[0.574s] running install_lib
+[0.574s] creating /home/simone/Documents/IoT/Lab_6/install/square_gazebo/lib/python3.10/site-packages/square_gazebo
+[0.574s] copying /home/simone/Documents/IoT/Lab_6/build/square_gazebo/build/lib/square_gazebo/__init__.py -> /home/simone/Documents/IoT/Lab_6/install/square_gazebo/lib/python3.10/site-packages/square_gazebo
+[0.574s] copying /home/simone/Documents/IoT/Lab_6/build/square_gazebo/build/lib/square_gazebo/vehicle_controller.py -> /home/simone/Documents/IoT/Lab_6/install/square_gazebo/lib/python3.10/site-packages/square_gazebo
+[0.575s] byte-compiling /home/simone/Documents/IoT/Lab_6/install/square_gazebo/lib/python3.10/site-packages/square_gazebo/__init__.py to __init__.cpython-310.pyc
+[0.575s] byte-compiling /home/simone/Documents/IoT/Lab_6/install/square_gazebo/lib/python3.10/site-packages/square_gazebo/vehicle_controller.py to vehicle_controller.cpython-310.pyc
+[0.575s] running install_data
+[0.575s] creating /home/simone/Documents/IoT/Lab_6/install/square_gazebo/share/ament_index
+[0.575s] creating /home/simone/Documents/IoT/Lab_6/install/square_gazebo/share/ament_index/resource_index
+[0.575s] creating /home/simone/Documents/IoT/Lab_6/install/square_gazebo/share/ament_index/resource_index/packages
+[0.576s] copying resource/square_gazebo -> /home/simone/Documents/IoT/Lab_6/install/square_gazebo/share/ament_index/resource_index/packages
+[0.576s] copying package.xml -> /home/simone/Documents/IoT/Lab_6/install/square_gazebo/share/square_gazebo
+[0.576s] running install_egg_info
+[0.577s] Copying ../../build/square_gazebo/square_gazebo.egg-info to /home/simone/Documents/IoT/Lab_6/install/square_gazebo/lib/python3.10/site-packages/square_gazebo-0.0.0-py3.10.egg-info
+[0.577s] running install_scripts
+[0.591s] writing list of installed files to '/home/simone/Documents/IoT/Lab_6/build/square_gazebo/install.log'
+[0.607s] Invoked command in '/home/simone/Documents/IoT/Lab_6/src/square_gazebo' returned '0': PYTHONPATH=/home/simone/Documents/IoT/Lab_6/build/square_gazebo/prefix_override:/home/simone/Documents/IoT/Lab_6/install/square_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/square_gazebo build --build-base /home/simone/Documents/IoT/Lab_6/build/square_gazebo/build install --record /home/simone/Documents/IoT/Lab_6/build/square_gazebo/install.log --single-version-externally-managed install_data

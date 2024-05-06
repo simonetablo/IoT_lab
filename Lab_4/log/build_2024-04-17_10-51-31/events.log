@@ -1,0 +1,445 @@
+[0.000000] (-) TimerEvent: {}
+[0.000514] (spinning_turtle) JobQueued: {'identifier': 'spinning_turtle', 'dependencies': OrderedDict()}
+[0.000617] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000695] (spinning_turtle) JobStarted: {'identifier': 'spinning_turtle'}
+[0.018997] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.097968] (-) TimerEvent: {}
+[0.198403] (-) TimerEvent: {}
+[0.298866] (-) TimerEvent: {}
+[0.399301] (-) TimerEvent: {}
+[0.499731] (-) TimerEvent: {}
+[0.600431] (-) TimerEvent: {}
+[0.666650] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.668470] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.670260] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simone'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simone'), ('OLDPWD', '/home/simone/Documents/IoT'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2587'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/simone/Documents/IoT/Lab_4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'simone'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'simone'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/simone-Legion-5-15ACH6H:@/tmp/.ICE-unix/2103,unix/simone-Legion-5-15ACH6H:/tmp/.ICE-unix/2103'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/71ccedab_22bb_4205_8d5d_b9bd29b8da15'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble')]), 'shell': False}
+[0.700908] (-) TimerEvent: {}
+[0.743962] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.801089] (-) TimerEvent: {}
+[0.901588] (-) TimerEvent: {}
+[1.002086] (-) TimerEvent: {}
+[1.102542] (-) TimerEvent: {}
+[1.138414] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.145873] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.184091] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.202692] (-) TimerEvent: {}
+[1.215043] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.256480] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302857] (-) TimerEvent: {}
+[1.403309] (-) TimerEvent: {}
+[1.451256] (spinning_turtle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/spinning_turtle', 'build', '--build-base', '/home/simone/Documents/IoT/Lab_4/build/spinning_turtle/build', 'install', '--record', '/home/simone/Documents/IoT/Lab_4/build/spinning_turtle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/simone/Documents/IoT/Lab_4/src/spinning_turtle', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'simone', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/simone', 'OLDPWD': '/home/simone/Documents/IoT', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/simone/Documents/IoT/Lab_4/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'simone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'simone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/simone-Legion-5-15ACH6H:@/tmp/.ICE-unix/2103,unix/simone-Legion-5-15ACH6H:/tmp/.ICE-unix/2103', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/71ccedab_22bb_4205_8d5d_b9bd29b8da15', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.164', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/simone/Documents/IoT/Lab_4/build/spinning_turtle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/simone/Documents/IoT/Lab_4/build/spinning_turtle/prefix_override:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages:/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces'}, 'shell': False}
+[1.503482] (-) TimerEvent: {}
+[1.536472] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.603633] (-) TimerEvent: {}
+[1.704149] (-) TimerEvent: {}
+[1.804733] (-) TimerEvent: {}
+[1.905168] (-) TimerEvent: {}
+[2.005587] (-) TimerEvent: {}
+[2.018308] (spinning_turtle) StdoutLine: {'line': b'running egg_info\n'}
+[2.020322] (spinning_turtle) StdoutLine: {'line': b'writing ../../build/spinning_turtle/spinning_turtle.egg-info/PKG-INFO\n'}
+[2.020873] (spinning_turtle) StdoutLine: {'line': b'writing dependency_links to ../../build/spinning_turtle/spinning_turtle.egg-info/dependency_links.txt\n'}
+[2.021252] (spinning_turtle) StdoutLine: {'line': b'writing entry points to ../../build/spinning_turtle/spinning_turtle.egg-info/entry_points.txt\n'}
+[2.021736] (spinning_turtle) StdoutLine: {'line': b'writing requirements to ../../build/spinning_turtle/spinning_turtle.egg-info/requires.txt\n'}
+[2.022210] (spinning_turtle) StdoutLine: {'line': b'writing top-level names to ../../build/spinning_turtle/spinning_turtle.egg-info/top_level.txt\n'}
+[2.026196] (spinning_turtle) StdoutLine: {'line': b"reading manifest file '../../build/spinning_turtle/spinning_turtle.egg-info/SOURCES.txt'\n"}
+[2.028077] (spinning_turtle) StdoutLine: {'line': b"writing manifest file '../../build/spinning_turtle/spinning_turtle.egg-info/SOURCES.txt'\n"}
+[2.028610] (spinning_turtle) StdoutLine: {'line': b'running build\n'}
+[2.028843] (spinning_turtle) StdoutLine: {'line': b'running build_py\n'}
+[2.029107] (spinning_turtle) StdoutLine: {'line': b'running install\n'}
+[2.029823] (spinning_turtle) StdoutLine: {'line': b'running install_lib\n'}
+[2.032661] (spinning_turtle) StdoutLine: {'line': b'running install_data\n'}
+[2.033040] (spinning_turtle) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.036794] (spinning_turtle) StdoutLine: {'line': b"removing '/home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages/spinning_turtle-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.037917] (spinning_turtle) StdoutLine: {'line': b'Copying ../../build/spinning_turtle/spinning_turtle.egg-info to /home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages/spinning_turtle-0.0.0-py3.10.egg-info\n'}
+[2.040398] (spinning_turtle) StdoutLine: {'line': b'running install_scripts\n'}
+[2.087978] (spinning_turtle) StdoutLine: {'line': b"writing list of installed files to '/home/simone/Documents/IoT/Lab_4/build/spinning_turtle/install.log'\n"}
+[2.105795] (-) TimerEvent: {}
+[2.134784] (spinning_turtle) CommandEnded: {'returncode': 0}
+[2.159201] (spinning_turtle) JobEnded: {'identifier': 'spinning_turtle', 'rc': 0}
+[2.205938] (-) TimerEvent: {}
+[2.294974] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.306083] (-) TimerEvent: {}
+[2.406531] (-) TimerEvent: {}
+[2.507171] (-) TimerEvent: {}
+[2.607694] (-) TimerEvent: {}
+[2.708124] (-) TimerEvent: {}
+[2.808553] (-) TimerEvent: {}
+[2.908992] (-) TimerEvent: {}
+[3.009461] (-) TimerEvent: {}
+[3.109958] (-) TimerEvent: {}
+[3.210617] (-) TimerEvent: {}
+[3.311114] (-) TimerEvent: {}
+[3.330204] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.411270] (-) TimerEvent: {}
+[3.511759] (-) TimerEvent: {}
+[3.612181] (-) TimerEvent: {}
+[3.712844] (-) TimerEvent: {}
+[3.722196] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.780526] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.813033] (-) TimerEvent: {}
+[3.838384] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.838723] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.838920] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.913175] (-) TimerEvent: {}
+[3.925938] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.961505] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.986159] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.992425] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.013341] (-) TimerEvent: {}
+[4.109796] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.113468] (-) TimerEvent: {}
+[4.120756] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces\n'}
+[4.184635] (tutorial_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.211209] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.213619] (-) TimerEvent: {}
+[4.241290] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[4.313807] (-) TimerEvent: {}
+[4.414247] (-) TimerEvent: {}
+[4.514748] (-) TimerEvent: {}
+[4.615182] (-) TimerEvent: {}
+[4.715621] (-) TimerEvent: {}
+[4.816202] (-) TimerEvent: {}
+[4.868116] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.869628] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[4.870281] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[4.870833] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[4.875979] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[4.877848] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[4.916342] (-) TimerEvent: {}
+[4.939255] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[5.016540] (-) TimerEvent: {}
+[5.117048] (-) TimerEvent: {}
+[5.174792] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target tutorial_interfaces__cpp\n'}
+[5.194313] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[5.201383] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.202297] (tutorial_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.202854] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.217203] (-) TimerEvent: {}
+[5.230081] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[5.230612] (tutorial_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[5.230883] (tutorial_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[5.231242] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/spin_turtle__functions.c.o\x1b[0m\n'}
+[5.317352] (-) TimerEvent: {}
+[5.417880] (-) TimerEvent: {}
+[5.418332] (tutorial_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.518028] (-) TimerEvent: {}
+[5.525849] (tutorial_interfaces) StdoutLine: {'line': b'[ 18%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[5.552707] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.553064] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.553382] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.618170] (-) TimerEvent: {}
+[5.718649] (-) TimerEvent: {}
+[5.819092] (-) TimerEvent: {}
+[5.919526] (-) TimerEvent: {}
+[5.931399] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.971486] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[5.972144] (tutorial_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[5.973245] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/spin_turtle__type_support.cpp.o\x1b[0m\n'}
+[5.980509] (tutorial_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[6.019687] (-) TimerEvent: {}
+[6.028554] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.076226] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[6.082857] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/spin_turtle__type_support.cpp.o\x1b[0m\n'}
+[6.083283] (tutorial_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[6.083756] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[6.119833] (-) TimerEvent: {}
+[6.206976] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.219986] (-) TimerEvent: {}
+[6.257796] (tutorial_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[6.261189] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[6.261685] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[6.293369] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/spin_turtle__type_support.cpp.o\x1b[0m\n'}
+[6.295395] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[6.320153] (-) TimerEvent: {}
+[6.342562] (tutorial_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[6.348164] (tutorial_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[6.420313] (-) TimerEvent: {}
+[6.502463] (tutorial_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[6.520475] (-) TimerEvent: {}
+[6.530481] (tutorial_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/spin_turtle__type_support.cpp.o\x1b[0m\n'}
+[6.620630] (-) TimerEvent: {}
+[6.630951] (tutorial_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.650550] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.684893] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.696049] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[6.710238] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[6.720793] (-) TimerEvent: {}
+[6.752194] (tutorial_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[6.820952] (-) TimerEvent: {}
+[6.832379] (tutorial_interfaces) StdoutLine: {'line': b'[ 60%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[6.852554] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[6.858740] (tutorial_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/spin_turtle__type_support.c.o\x1b[0m\n'}
+[6.870851] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[6.879232] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[6.892102] (tutorial_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/spin_turtle__type_support_c.cpp.o\x1b[0m\n'}
+[6.894343] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.921104] (-) TimerEvent: {}
+[6.995214] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.021267] (-) TimerEvent: {}
+[7.059622] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[7.104897] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.121497] (-) TimerEvent: {}
+[7.222059] (-) TimerEvent: {}
+[7.235917] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.322215] (-) TimerEvent: {}
+[7.355496] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.422360] (-) TimerEvent: {}
+[7.425349] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.522506] (-) TimerEvent: {}
+[7.552634] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.601808] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.622632] (-) TimerEvent: {}
+[7.715541] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.722752] (-) TimerEvent: {}
+[7.749012] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces\n'}
+[7.782734] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.822889] (-) TimerEvent: {}
+[7.923218] (-) TimerEvent: {}
+[8.023550] (-) TimerEvent: {}
+[8.123863] (-) TimerEvent: {}
+[8.224307] (-) TimerEvent: {}
+[8.324662] (-) TimerEvent: {}
+[8.424971] (-) TimerEvent: {}
+[8.458449] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__py\n'}
+[8.471220] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py\x1b[0m\n'}
+[8.490091] (tutorial_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[8.490356] (tutorial_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_spin_turtle_s.c.o\x1b[0m\n'}
+[8.490459] (tutorial_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[8.490667] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[8.525101] (-) TimerEvent: {}
+[8.607398] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[8.625209] (-) TimerEvent: {}
+[8.654789] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[8.666708] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.666933] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.667054] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.681508] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.681791] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.681927] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.725334] (-) TimerEvent: {}
+[8.786074] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.786283] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.786375] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.825455] (-) TimerEvent: {}
+[8.825686] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.825863] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.825952] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.838793] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[8.925553] (-) TimerEvent: {}
+[8.967550] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[8.977075] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces'], 'cwd': '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'simone'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/simone'), ('OLDPWD', '/home/simone/Documents/IoT'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2587'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/simone/Documents/IoT/Lab_4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'simone'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'simone'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/simone-Legion-5-15ACH6H:@/tmp/.ICE-unix/2103,unix/simone-Legion-5-15ACH6H:/tmp/.ICE-unix/2103'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/71ccedab_22bb_4205_8d5d_b9bd29b8da15'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simone/Documents/IoT/Lab_4/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble')]), 'shell': False}
+[8.984931] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.985110] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[8.985196] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.985278] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.985352] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h\n'}
+[8.985474] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/spin_turtle.h\n'}
+[8.985552] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.985624] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__functions.h\n'}
+[8.985789] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__struct.h\n'}
+[8.985873] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__type_support.h\n'}
+[8.985963] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[8.986049] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[8.986172] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[8.986292] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__functions.c\n'}
+[8.986523] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[8.986666] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.986803] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.986880] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.986982] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[8.987041] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[8.987134] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h\n'}
+[8.987235] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h\n'}
+[8.987417] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[8.987626] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h\n'}
+[8.987862] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c\n'}
+[8.988133] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[8.988370] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h\n'}
+[8.988517] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[8.988729] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[8.988861] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[8.989097] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[8.989544] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.989642] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.989843] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.989976] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.990058] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[8.990154] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[8.990215] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.990285] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.990342] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[8.990426] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[8.990501] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.990648] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.991107] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.991234] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.991307] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.991413] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/spin_turtle.hpp\n'}
+[8.991483] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.991538] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[8.991657] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[8.991766] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__struct.hpp\n'}
+[8.991860] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[8.992022] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__traits.hpp\n'}
+[8.992161] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__builder.hpp\n'}
+[8.992339] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[8.992472] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.992565] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp\n'}
+[8.992661] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.992748] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp\n'}
+[8.992859] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[8.993018] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[8.993205] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp\n'}
+[8.993359] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp\n'}
+[8.993639] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[8.993878] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[8.994172] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.994263] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.994342] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.994432] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.994498] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[8.994582] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.994662] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.994722] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.994784] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.994876] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.994937] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[8.994993] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.995176] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.995631] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.995747] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.995818] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.995879] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.995965] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[8.996027] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__type_support.c\n'}
+[8.996119] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[8.996279] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__rosidl_typesupport_introspection_c.h\n'}
+[8.996413] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.996520] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.996584] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.996641] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[8.996732] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[8.996833] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c\n'}
+[8.996985] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[8.997294] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.997687] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.997852] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[8.998269] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.998361] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.998457] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.998525] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.998590] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.998678] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.998746] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/spin_turtle__type_support.cpp\n'}
+[8.998838] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[8.999008] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.999126] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.999269] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[8.999437] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.999631] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[8.999759] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.000089] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.000570] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.000708] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.001122] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.001216] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[9.001315] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[9.001417] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[9.001481] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.001567] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.001729] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.001880] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.002122] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[9.002226] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.002391] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[9.002539] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.002749] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.002969] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.003194] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.003425] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[9.003665] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[9.003769] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[9.003883] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[9.004073] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_spin_turtle_s.c\n'}
+[9.004231] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_spin_turtle.py\n'}
+[9.004403] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[9.004557] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.004765] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[9.004851] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[9.004983] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py\n'}
+[9.005158] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[9.005326] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c\n'}
+[9.005529] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py\n'}
+[9.025672] (-) TimerEvent: {}
+[9.036220] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[9.036544] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[9.036690] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[9.036826] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...\n"}
+[9.036915] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...\n"}
+[9.036997] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py'...\n"}
+[9.037087] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[9.037163] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[9.037228] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py'...\n"}
+[9.037306] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_spin_turtle.py'...\n"}
+[9.040621] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.041119] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.041328] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.041729] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.041918] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.042336] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.042507] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[9.042940] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.043115] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[9.043194] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl\n'}
+[9.043251] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[9.043317] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/SpinTurtle.idl\n'}
+[9.043387] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[9.043484] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg\n'}
+[9.043541] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[9.043605] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[9.043662] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[9.043715] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/SpinTurtle.srv\n'}
+[9.043786] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/SpinTurtle_Request.msg\n'}
+[9.043840] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/srv/SpinTurtle_Response.msg\n'}
+[9.043919] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[9.044003] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[9.044136] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[9.044228] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.044346] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[9.044435] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[9.044558] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[9.044666] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[9.044727] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[9.044782] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[9.044875] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[9.045025] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[9.045121] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.045217] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.045297] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.045351] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.045423] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.045491] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.045600] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.045682] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.045769] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.045887] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.045944] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.046017] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.046084] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.046153] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.046243] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.046308] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.046384] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.046452] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.046539] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.046606] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.046694] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.046762] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.046828] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.046893] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.046956] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[9.047022] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[9.047110] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/simone/Documents/IoT/Lab_4/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[9.048954] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[9.125779] (-) TimerEvent: {}
+[9.187594] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[9.188311] (-) EventReactorShutdown: {}

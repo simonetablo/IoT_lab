@@ -1,0 +1,42 @@
+[0.026s] Invoking command in '/home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble /usr/bin/cmake /home/simone/Documents/IoT/Lab_5/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces
+[0.190s] -- The C compiler identification is GNU 11.4.0
+[0.341s] -- The CXX compiler identification is GNU 11.4.0
+[0.362s] -- Detecting C compiler ABI info
+[0.546s] -- Detecting C compiler ABI info - done
+[0.561s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.569s] -- Detecting C compile features
+[0.570s] -- Detecting C compile features - done
+[0.578s] -- Detecting CXX compiler ABI info
+[0.794s] -- Detecting CXX compiler ABI info - done
+[0.810s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.811s] -- Detecting CXX compile features
+[0.812s] -- Detecting CXX compile features - done
+[0.826s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.220s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.446s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.641s] -- Added test 'lint_cmake' to check CMake code style
+[1.645s] -- Added test 'xmllint' to check XML markup files
+[1.656s] -- Configuring done
+[1.664s] -- Generating done
+[1.667s] -- Build files have been written to: /home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces
+[1.677s] Invoked command in '/home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble /usr/bin/cmake /home/simone/Documents/IoT/Lab_5/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces
+[1.682s] Invoking command in '/home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces -- -j16 -l16
+[1.786s] Invoked command in '/home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble /usr/bin/cmake --build /home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces -- -j16 -l16
+[1.876s] Invoking command in '/home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble /usr/bin/cmake --install /home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces
+[1.895s] -- Install configuration: ""
+[1.895s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces
+[1.896s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces
+[1.897s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh
+[1.897s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv
+[1.898s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh
+[1.898s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv
+[1.899s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash
+[1.899s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh
+[1.900s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh
+[1.901s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv
+[1.901s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv
+[1.902s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces
+[1.902s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake
+[1.903s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake
+[1.903s] -- Installing: /home/simone/Documents/IoT/Lab_5/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml
+[1.910s] Invoked command in '/home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle:/opt/ros/humble /usr/bin/cmake --install /home/simone/Documents/IoT/Lab_5/build/action_tutorials_interfaces

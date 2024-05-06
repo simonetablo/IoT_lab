@@ -1,0 +1,40 @@
+[1.369s] Invoking command in '/home/simone/Documents/IoT/Lab_5/src/fibonacci_action': PYTHONPATH=/home/simone/Documents/IoT/Lab_5/build/fibonacci_action/prefix_override:/home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fibonacci_action build --build-base /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build install --record /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/install.log --single-version-externally-managed install_data
+[1.916s] running egg_info
+[1.917s] creating ../../build/fibonacci_action/fibonacci_action.egg-info
+[1.917s] writing ../../build/fibonacci_action/fibonacci_action.egg-info/PKG-INFO
+[1.918s] writing dependency_links to ../../build/fibonacci_action/fibonacci_action.egg-info/dependency_links.txt
+[1.918s] writing entry points to ../../build/fibonacci_action/fibonacci_action.egg-info/entry_points.txt
+[1.919s] writing requirements to ../../build/fibonacci_action/fibonacci_action.egg-info/requires.txt
+[1.919s] writing top-level names to ../../build/fibonacci_action/fibonacci_action.egg-info/top_level.txt
+[1.919s] writing manifest file '../../build/fibonacci_action/fibonacci_action.egg-info/SOURCES.txt'
+[1.923s] reading manifest file '../../build/fibonacci_action/fibonacci_action.egg-info/SOURCES.txt'
+[1.925s] writing manifest file '../../build/fibonacci_action/fibonacci_action.egg-info/SOURCES.txt'
+[1.925s] running build
+[1.925s] running build_py
+[1.925s] creating /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build
+[1.926s] creating /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib
+[1.926s] creating /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action
+[1.926s] copying fibonacci_action/__init__.py -> /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action
+[1.926s] copying fibonacci_action/fibonacci_action_server.py -> /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action
+[1.927s] copying fibonacci_action/fibonacci_action_client.py -> /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action
+[1.927s] running install
+[1.928s] running install_lib
+[1.929s] creating /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action
+[1.929s] copying /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action/__init__.py -> /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action
+[1.930s] copying /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action/fibonacci_action_server.py -> /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action
+[1.930s] copying /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build/lib/fibonacci_action/fibonacci_action_client.py -> /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action
+[1.931s] byte-compiling /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action/__init__.py to __init__.cpython-310.pyc
+[1.932s] byte-compiling /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action/fibonacci_action_server.py to fibonacci_action_server.cpython-310.pyc
+[1.932s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (fibonacci_action_server.py, line 22)
+[1.932s] byte-compiling /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action/fibonacci_action_client.py to fibonacci_action_client.cpython-310.pyc
+[1.933s] running install_data
+[1.933s] creating /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/share/ament_index
+[1.934s] creating /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/share/ament_index/resource_index
+[1.934s] creating /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/share/ament_index/resource_index/packages
+[1.934s] copying resource/fibonacci_action -> /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/share/ament_index/resource_index/packages
+[1.934s] copying package.xml -> /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/share/fibonacci_action
+[1.935s] running install_egg_info
+[1.938s] Copying ../../build/fibonacci_action/fibonacci_action.egg-info to /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action-0.0.0-py3.10.egg-info
+[1.940s] running install_scripts
+[1.985s] writing list of installed files to '/home/simone/Documents/IoT/Lab_5/build/fibonacci_action/install.log'
+[2.030s] Invoked command in '/home/simone/Documents/IoT/Lab_5/src/fibonacci_action' returned '0': PYTHONPATH=/home/simone/Documents/IoT/Lab_5/build/fibonacci_action/prefix_override:/home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fibonacci_action build --build-base /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build install --record /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/install.log --single-version-externally-managed install_data

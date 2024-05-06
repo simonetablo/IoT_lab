@@ -1,0 +1,21 @@
+[1.427s] Invoking command in '/home/simone/Documents/IoT/Lab_5/src/fibonacci_action': PYTHONPATH=/home/simone/Documents/IoT/Lab_5/build/fibonacci_action/prefix_override:/home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fibonacci_action build --build-base /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build install --record /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/install.log --single-version-externally-managed install_data
+[1.976s] running egg_info
+[1.977s] writing ../../build/fibonacci_action/fibonacci_action.egg-info/PKG-INFO
+[1.978s] writing dependency_links to ../../build/fibonacci_action/fibonacci_action.egg-info/dependency_links.txt
+[1.978s] writing entry points to ../../build/fibonacci_action/fibonacci_action.egg-info/entry_points.txt
+[1.979s] writing requirements to ../../build/fibonacci_action/fibonacci_action.egg-info/requires.txt
+[1.979s] writing top-level names to ../../build/fibonacci_action/fibonacci_action.egg-info/top_level.txt
+[1.983s] reading manifest file '../../build/fibonacci_action/fibonacci_action.egg-info/SOURCES.txt'
+[1.986s] writing manifest file '../../build/fibonacci_action/fibonacci_action.egg-info/SOURCES.txt'
+[1.986s] running build
+[1.986s] running build_py
+[1.987s] running install
+[1.988s] running install_lib
+[1.991s] running install_data
+[1.991s] running install_egg_info
+[1.994s] removing '/home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action-0.0.0-py3.10.egg-info' (and everything under it)
+[1.995s] Copying ../../build/fibonacci_action/fibonacci_action.egg-info to /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages/fibonacci_action-0.0.0-py3.10.egg-info
+[1.998s] running install_scripts
+[2.043s] Installing fibonacci_server script to /home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/fibonacci_action
+[2.044s] writing list of installed files to '/home/simone/Documents/IoT/Lab_5/build/fibonacci_action/install.log'
+[2.088s] Invoked command in '/home/simone/Documents/IoT/Lab_5/src/fibonacci_action' returned '0': PYTHONPATH=/home/simone/Documents/IoT/Lab_5/build/fibonacci_action/prefix_override:/home/simone/Documents/IoT/Lab_5/install/fibonacci_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fibonacci_action build --build-base /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/build install --record /home/simone/Documents/IoT/Lab_5/build/fibonacci_action/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[1.428s] Invoking command in '/home/simone/Documents/IoT/Lab_4/src/spinning_turtle': PYTHONPATH=/home/simone/Documents/IoT/Lab_4/build/spinning_turtle/prefix_override:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/spinning_turtle build --build-base /home/simone/Documents/IoT/Lab_4/build/spinning_turtle/build install --record /home/simone/Documents/IoT/Lab_4/build/spinning_turtle/install.log --single-version-externally-managed install_data
+[2.000s] running egg_info
+[2.001s] writing ../../build/spinning_turtle/spinning_turtle.egg-info/PKG-INFO
+[2.002s] writing dependency_links to ../../build/spinning_turtle/spinning_turtle.egg-info/dependency_links.txt
+[2.002s] writing entry points to ../../build/spinning_turtle/spinning_turtle.egg-info/entry_points.txt
+[2.003s] writing requirements to ../../build/spinning_turtle/spinning_turtle.egg-info/requires.txt
+[2.004s] writing top-level names to ../../build/spinning_turtle/spinning_turtle.egg-info/top_level.txt
+[2.008s] reading manifest file '../../build/spinning_turtle/spinning_turtle.egg-info/SOURCES.txt'
+[2.009s] writing manifest file '../../build/spinning_turtle/spinning_turtle.egg-info/SOURCES.txt'
+[2.009s] running build
+[2.009s] running build_py
+[2.010s] copying spinning_turtle/turtle_spin_service.py -> /home/simone/Documents/IoT/Lab_4/build/spinning_turtle/build/lib/spinning_turtle
+[2.010s] running install
+[2.011s] running install_lib
+[2.012s] copying /home/simone/Documents/IoT/Lab_4/build/spinning_turtle/build/lib/spinning_turtle/turtle_spin_service.py -> /home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages/spinning_turtle
+[2.014s] byte-compiling /home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages/spinning_turtle/turtle_spin_service.py to turtle_spin_service.cpython-310.pyc
+[2.015s] running install_data
+[2.016s] running install_egg_info
+[2.018s] removing '/home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages/spinning_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+[2.018s] Copying ../../build/spinning_turtle/spinning_turtle.egg-info to /home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages/spinning_turtle-0.0.0-py3.10.egg-info
+[2.021s] running install_scripts
+[2.067s] Installing Spin script to /home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/spinning_turtle
+[2.068s] writing list of installed files to '/home/simone/Documents/IoT/Lab_4/build/spinning_turtle/install.log'
+[2.118s] Invoked command in '/home/simone/Documents/IoT/Lab_4/src/spinning_turtle' returned '0': PYTHONPATH=/home/simone/Documents/IoT/Lab_4/build/spinning_turtle/prefix_override:/home/simone/Documents/IoT/Lab_4/install/spinning_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/spinning_turtle build --build-base /home/simone/Documents/IoT/Lab_4/build/spinning_turtle/build install --record /home/simone/Documents/IoT/Lab_4/build/spinning_turtle/install.log --single-version-externally-managed install_data
