@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/drone_patrol/drone_patrol.egg-info/PKG-INFO
+../../build/drone_patrol/drone_patrol.egg-info/SOURCES.txt
+../../build/drone_patrol/drone_patrol.egg-info/dependency_links.txt
+../../build/drone_patrol/drone_patrol.egg-info/entry_points.txt
+../../build/drone_patrol/drone_patrol.egg-info/requires.txt
+../../build/drone_patrol/drone_patrol.egg-info/top_level.txt
+../../build/drone_patrol/drone_patrol.egg-info/zip-safe
+drone_patrol/__init__.py
+drone_patrol/drone_controller.py
+resource/drone_patrol
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,3 @@
+[console_scripts]
+get_up = drone_patrol.drone_controller:main
+

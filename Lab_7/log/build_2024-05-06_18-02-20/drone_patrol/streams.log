@@ -1,0 +1,36 @@
+[0.659s] Invoking command in '/home/simone/Documents/IoT_lab/Lab_7/src/drone_patrol': PYTHONPATH=/home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/prefix_override:/home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_patrol build --build-base /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/build install --record /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/install.log --single-version-externally-managed install_data
+[0.923s] running egg_info
+[0.923s] creating ../../build/drone_patrol/drone_patrol.egg-info
+[0.923s] writing ../../build/drone_patrol/drone_patrol.egg-info/PKG-INFO
+[0.924s] writing dependency_links to ../../build/drone_patrol/drone_patrol.egg-info/dependency_links.txt
+[0.924s] writing entry points to ../../build/drone_patrol/drone_patrol.egg-info/entry_points.txt
+[0.924s] writing requirements to ../../build/drone_patrol/drone_patrol.egg-info/requires.txt
+[0.924s] writing top-level names to ../../build/drone_patrol/drone_patrol.egg-info/top_level.txt
+[0.924s] writing manifest file '../../build/drone_patrol/drone_patrol.egg-info/SOURCES.txt'
+[0.926s] reading manifest file '../../build/drone_patrol/drone_patrol.egg-info/SOURCES.txt'
+[0.927s] writing manifest file '../../build/drone_patrol/drone_patrol.egg-info/SOURCES.txt'
+[0.927s] running build
+[0.927s] running build_py
+[0.927s] creating /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/build
+[0.927s] creating /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/build/lib
+[0.928s] creating /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/build/lib/drone_patrol
+[0.928s] copying drone_patrol/drone_controller.py -> /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/build/lib/drone_patrol
+[0.928s] copying drone_patrol/__init__.py -> /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/build/lib/drone_patrol
+[0.928s] running install
+[0.928s] running install_lib
+[0.929s] creating /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/lib/python3.10/site-packages/drone_patrol
+[0.929s] copying /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/build/lib/drone_patrol/drone_controller.py -> /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/lib/python3.10/site-packages/drone_patrol
+[0.929s] copying /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/build/lib/drone_patrol/__init__.py -> /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/lib/python3.10/site-packages/drone_patrol
+[0.929s] byte-compiling /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/lib/python3.10/site-packages/drone_patrol/drone_controller.py to drone_controller.cpython-310.pyc
+[0.930s] byte-compiling /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/lib/python3.10/site-packages/drone_patrol/__init__.py to __init__.cpython-310.pyc
+[0.931s] running install_data
+[0.931s] creating /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/share/ament_index
+[0.931s] creating /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/share/ament_index/resource_index
+[0.931s] creating /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/share/ament_index/resource_index/packages
+[0.931s] copying resource/drone_patrol -> /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/share/ament_index/resource_index/packages
+[0.931s] copying package.xml -> /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/share/drone_patrol
+[0.931s] running install_egg_info
+[0.932s] Copying ../../build/drone_patrol/drone_patrol.egg-info to /home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/lib/python3.10/site-packages/drone_patrol-0.0.0-py3.10.egg-info
+[0.933s] running install_scripts
+[0.956s] writing list of installed files to '/home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/install.log'
+[0.979s] Invoked command in '/home/simone/Documents/IoT_lab/Lab_7/src/drone_patrol' returned '0': PYTHONPATH=/home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/prefix_override:/home/simone/Documents/IoT_lab/Lab_7/install/drone_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_patrol build --build-base /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/build install --record /home/simone/Documents/IoT_lab/Lab_7/build/drone_patrol/install.log --single-version-externally-managed install_data
